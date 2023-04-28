@@ -43,7 +43,7 @@ categories:
 </div>
 
 <div class="row">
-	{% for post in site.categories.blog limit:4 %}
+	{% for post in site.categories.y-duoc-hoc-thuong-thuc limit:4 %}
 
 	{% for member in site.categories.team %}
 		{% if member.title == post.author %}
@@ -120,7 +120,7 @@ categories:
 		<div class="pad-left">
 			<div class="note">
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="{{ paper.url }}">
+				<a class="off" href="{{ duoc-tri-lieu-chinh-xac.url }}">
 				{{ paper.title }}
 				</a>
 			</div>
